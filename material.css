@@ -3,6 +3,7 @@
 
 #title {
   font-family: Evita Freebies;
+  src: url(Evita_FREEBIES.ttf) format('truetype');
   font-size: 5em;
   position: absolute;
   left: 50%; top: 110px;
@@ -11,6 +12,7 @@
 
 #title2 {
   font-family: Lato;
+    src: url(lato/Lato-Regular.ttf) format('truetype');
   position: absolute;
   top: 78px; left: 52%;
   transform: translate(-50%, -50%);
@@ -37,7 +39,7 @@ ul {
   list-style: none;
   list-style-type: none;
   font-family: Lato;
-
+  src: url(lato/Lato-Regular.ttf) format('truetype');
 
 }
 
@@ -72,6 +74,7 @@ p {
   top: 240px;
   left: 50%;
   font-family: Lato;
+  src: url(lato/Lato-Regular.ttf) format('truetype');
   font-weight: 150;
   background-color: pink;
   border: 2px solid pink;
