@@ -1,9 +1,9 @@
 /* title of the page */
 
-@@font-face {
-  src: url(Evita_FREEBIES.ttf) format('truetype');
-  src: url(lato/Lato-Regular.ttf) format('truetype');
-  src: url(lato/Lato-Hairline.ttf) format('truetype');
+@font-face {
+  src: url(Evita_FREEBIES.ttf) format('truetype'),
+       url(lato/Lato-Regular.ttf) format('truetype'),
+       url(lato/Lato-Hairline.ttf) format('truetype');
 }
 
 
