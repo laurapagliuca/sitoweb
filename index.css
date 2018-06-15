@@ -1,8 +1,14 @@
 /* title of the page */
 
+@@font-face {
+  src: url(Evita_FREEBIES.ttf) format('truetype');
+  src: url(lato/Lato-Regular.ttf) format('truetype');
+  src: url(lato/Lato-Hairline.ttf) format('truetype');
+}
+
+
 #title {
   font-family: Evita Freebies;
-  src: url(Evita_FREEBIES.ttf) format('truetype');
   font-size: 5em;
   position: absolute;
   left: 50%; top: 110px;
@@ -11,7 +17,6 @@
 
 #title2 {
   font-family: Lato;
-  src: url(lato/Lato-Regular.ttf) format('truetype');
   position: absolute;
   top: 78px; left: 52%;
   transform: translate(-50%, -50%);
@@ -37,7 +42,6 @@ ul {
   list-style: none;
   list-style-type: none;
   font-family: Lato;
-src: url(lato/Lato-Regular.ttf) format('truetype');
 
 }
 
@@ -87,7 +91,6 @@ p {
   font-family: Lato;
   font-weight: lighter;
   font-size: 11pt;
-  src: url(lato/Lato-Hairline.ttf) format('truetype');
 
 }
 
@@ -100,7 +103,6 @@ p {
 
 h1 {
   font-family: Evita Freebies;
-  src: url(Evita_FREEBIES.ttf) format('truetype');
   position: absolute;
   left: 5%;
   top: 220px;
@@ -108,7 +110,6 @@ h1 {
 
 h2 {
   font-family: Evita Freebies;
-  src: url(Evita_FREEBIES.ttf) format('truetype');
   position: absolute;
   left: 5%;
   top: 245px;
