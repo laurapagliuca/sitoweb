@@ -1,0 +1,112 @@
+/* title of the page */
+
+#title {
+  font-family: Evita Freebies;
+  font-size: 5em;
+  position: absolute;
+  left: 50%; top: 110px;
+  transform: translate(-50%, -50%);
+}
+
+#title2 {
+  font-family: Lato;
+  position: absolute;
+  top: 78px; left: 52%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+
+/* navigation bar */
+
+#elements {
+  text-decoration: none;
+  float: left;
+  margin-left: 50px;
+  color: black;
+  margin-top: 0px;
+
+
+}
+
+
+#nav {
+background-color: white;
+opacity: .5;
+width:100%;
+height: 50px;
+position: absolute;
+top: 0px;
+left: 0px;
+position: fixed;
+z-index: 1;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  font-family: Lato;
+
+
+}
+
+
+
+#elements:hover {
+  color: white;
+}
+
+/* gallery */
+
+img {
+  width: 25%;
+  border-radius: 2%;
+  top: 0;
+  margin: 7px;
+
+}
+
+img:hover {
+  opacity: .7;
+}
+
+
+#row {
+  top: 240px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  transform: translate(22.5%, 0);
+  left: 0;
+}
+
+
+
+/* fine header */
+
+#linea {
+  width: 100%;
+  height: 2px;
+  background-color: pink;
+  position: absolute;
+  left: 0px;
+  top: 190px;
+}
+
+/* icons */
+
+#header {
+
+right: 0px;
+position: absolute;
+width: 30%;
+top: 150px;
+right: 2%;
+}
+
+#icons {
+width: 7%;
+float: right;
+padding-left: 0%;
+}

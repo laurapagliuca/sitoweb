@@ -1,0 +1,30 @@
+div {
+  position: fixed;
+}
+
+#nav {
+background-color: white;
+opacity: .5;
+width:100%;
+height: 50px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+  font-family: Lato;
+
+
+}
+
+#elements {
+  text-decoration: none;
+  float: left;
+  margin-left: 50px;
+  color: #9999ff;
+  margin-top: 0px;
+
+}
