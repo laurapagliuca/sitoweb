@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
+
 @font-face {
   font-family: Evita Freebies;
   src: url('Evita_FREEBIES.ttf') format('truetype');
@@ -16,6 +17,27 @@
   url('lato/Lato-Hairline.ttf') format('truetype');
 }
 
+
+@keyframes caricamento {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+#barra {
+  animation: caricamento 2s infinite;
+  background-color: pink;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 190px;
+  z-index: 1;
+}
+
+#barra:hover {
+  width: 150px;
+  transition: all 10s;
+}
 
 #title {
   font-family: Evita Freebies;
@@ -93,12 +115,10 @@ right: 2%;
 }
 
 #icons {
-width: 7%;
+width: 10%;
 float: right;
-padding-left: 20px;
-
+padding-left: 8px;
 }
-
 
 
 * {box-sizing: border-box}
@@ -223,8 +243,9 @@ text-align: center;}
 
 </style>
 </head>
-<body>
+<body onload="myFunction()">
 
+<div id="barra"> </div>
 
   <div id="title"> Laura </div>
   <div id="title2"> HAND LETTERING by </div>
@@ -244,7 +265,7 @@ text-align: center;}
   <div id="nav">
   <ul>
     <li><a href="index.html" id="elements"> home </li></a>
-    <li><a href="works.html" id="elements"> works </li></a></a>
+    <li><a href="works.html" id="elements"> my works </li></a></a>
     <li><a href="material.html" id="elements"> materials </li></a>
   </ul>
   </div>
@@ -260,19 +281,19 @@ text-align: center;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext"></div>
   <img src="immagini/1.jpg" style="width:100%">
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext"></div>
   <img src="immagini/2.jpg" style="width:100%">
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
+  <div class="numbertext"></div>
   <img src="immagini/3.jpg" style="width:100%">
   <div class="text"></div>
 </div>
@@ -318,6 +339,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("barra").style.display = "none";
+  document.getElementById("body").style.display = "block";
+}
+
 </script>
 
 </body>

@@ -1,0 +1,53 @@
+<html>
+<head>
+</head>
+<style>
+
+@keyframes caricamento {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+#barra {
+  animation: caricamento 2s infinite;
+  background-color: pink;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 190px;
+  z-index: 1;
+}
+
+#barra:hover {
+  width: 150px;
+  transition: all 10s;
+}
+
+
+</style>
+
+
+<body onload="myFunction()" style="margin:0;">
+
+
+<div id="barra"> </div>
+
+
+</body>
+
+<script>
+
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("barra").style.display = "none";
+  document.getElementById("body").style.display = "block";
+}
+
+</script>
+</html>
